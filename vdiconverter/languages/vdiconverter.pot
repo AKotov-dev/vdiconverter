@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tmainform.addbtn.caption
+msgid "VDI"
+msgstr ""
+
+#: tmainform.addbtn1.caption
+msgid "Cancel"
+msgstr ""
+
+#: tmainform.caption
+msgid "VDIConverter"
+msgstr ""
+
+#: tmainform.label1.caption
+msgid "Input file:"
+msgstr ""
+
+#: tmainform.label2.caption
+msgid "..."
+msgstr ""
+
+#: tmainform.label3.caption
+msgid ">>"
+msgstr ""
+
+#: tmainform.sqfsbtn.caption
+msgctxt "tmainform.sqfsbtn.caption"
+msgid "SQFS"
+msgstr ""
+
+#: tmainform.statictext1.caption
+msgid "License: GPLv3   Author: alex_q_2000 (C) 2022   URL: https://linuxforum.ru"
+msgstr ""
+
+#: tmainform.tarbtn.caption
+msgctxt "tmainform.tarbtn.caption"
+msgid "TAR"
+msgstr ""
+
+#: unit1.sdeleteitems
+msgid "Delete the selected entries?"
+msgstr ""
+
+#: unit1.slistfileempty
+msgid "The list of files is empty!"
+msgstr ""
+
+#: unit1.snodestfolder
+msgid "Destination folder not found!"
+msgstr ""
+
+#: unit1.snosfxname
+msgid "The name of the archive is not listed!"
+msgstr ""
+

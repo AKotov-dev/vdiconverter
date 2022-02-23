@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":239597233,"name":"unit1.snosfxname","sourcebytes":[84,104,101,32,110,97,109,101,32,111,102,32,116,104,101,32,97,114,99,104,105,118,101,32,105,115,32,110,111,116,32,108,105,115,116,101,100,33],"value":"The name of the archive is not listed!"},
+{"hash":184333905,"name":"unit1.snodestfolder","sourcebytes":[68,101,115,116,105,110,97,116,105,111,110,32,102,111,108,100,101,114,32,110,111,116,32,102,111,117,110,100,33],"value":"Destination folder not found!"},
+{"hash":107616097,"name":"unit1.slistfileempty","sourcebytes":[84,104,101,32,108,105,115,116,32,111,102,32,102,105,108,101,115,32,105,115,32,101,109,112,116,121,33],"value":"The list of files is empty!"},
+{"hash":80342719,"name":"unit1.sdeleteitems","sourcebytes":[68,101,108,101,116,101,32,116,104,101,32,115,101,108,101,99,116,101,100,32,101,110,116,114,105,101,115,63],"value":"Delete the selected entries?"}
+]}

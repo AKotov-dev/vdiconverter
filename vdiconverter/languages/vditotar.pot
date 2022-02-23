@@ -1,0 +1,47 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tmainform.addbtn.caption
+msgid "VDI"
+msgstr ""
+
+#: tmainform.caption
+msgid "Vdi-Tar-Converter"
+msgstr ""
+
+#: tmainform.label1.caption
+msgid "VDI File: "
+msgstr ""
+
+#: tmainform.label2.caption
+msgid "..."
+msgstr ""
+
+#: tmainform.sfxbtn.caption
+msgid "TAR"
+msgstr ""
+
+#: tmainform.sfxbtn1.caption
+msgid "SQFS"
+msgstr ""
+
+#: tmainform.statictext1.caption
+msgid "License: GPLv3   Author: alex_q_2000 (C) 2022   URL: https://linuxforum.ru"
+msgstr ""
+
+#: unit1.sdeleteitems
+msgid "Delete the selected entries?"
+msgstr ""
+
+#: unit1.slistfileempty
+msgid "The list of files is empty!"
+msgstr ""
+
+#: unit1.snodestfolder
+msgid "Destination folder not found!"
+msgstr ""
+
+#: unit1.snosfxname
+msgid "The name of the archive is not listed!"
+msgstr ""
+
