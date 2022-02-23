@@ -1,5 +1,6 @@
 # VDIConverter
-Dependencies: polkit zstd qemu-img squashfs-tools  
+Dependencies: polkit, zstd, qemu-img, squashfs-tools  
+Free icons: https://icon-icons.com/ru  
   
 **RU**  
 `VDIConverter` - конвертирует файлы `VDI` (RootFS) в `TAR` и `SQFS`. Разметка диска виртуальной машины должна быть простейшей: `своп + корень`. Преобразование в TAR предназначено для создания архивов, которые можно импортировать в Docker для создания готового контейнера. Сжатие SQFS используется для создания готового модуля `.sqfs` для флешки MgaRemix или для другого (модульного) дистрибутива.
