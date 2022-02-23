@@ -8,4 +8,4 @@
 VirtualBox (VDI) -> VDIConverter (TAR) -> Docker (Import)  
 VirtualBox (VDI) -> VDIConverter (SQFS) -> USB flash drive/loopbacks/distrib.sqfs
 
-![](https://github.com/AKotov-dev/vdiconverter/blob/main/ScreenShot.png)
+![](https://github.com/AKotov-dev/vdiconverter/blob/main/ScreenShot1.png)
