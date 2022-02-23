@@ -636,11 +636,10 @@ object MainForm: TMainForm
       AnchorSideLeft.Control = TARBtn
       AnchorSideLeft.Side = asrBottom
       AnchorSideTop.Control = TARBtn
-      Left = 190
+      Left = 186
       Height = 80
       Top = 2
       Width = 80
-      BorderSpacing.Left = 4
       Caption = 'SQFS'
       Enabled = False
       Glyph.Data = {
@@ -943,11 +942,10 @@ object MainForm: TMainForm
       AnchorSideLeft.Side = asrBottom
       AnchorSideTop.Control = AddBtn
       AnchorSideRight.Side = asrBottom
-      Left = 274
+      Left = 266
       Height = 80
       Top = 2
       Width = 80
-      BorderSpacing.Left = 4
       Caption = 'Cancel'
       Glyph.Data = {
         36100000424D3610000000000000360000002800000020000000200000000100

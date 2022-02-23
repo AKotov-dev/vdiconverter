@@ -44,12 +44,6 @@ type
 
   end;
 
-resourcestring
-  SNoSFXName = 'The name of the archive is not listed!';
-  SNoDestFolder = 'Destination folder not found!';
-  SListFileEmpty = 'The list of files is empty!';
-  SDeleteItems = 'Delete the selected entries?';
-
 var
   MainForm: TMainForm;
 
