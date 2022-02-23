@@ -1,0 +1,92 @@
+[NAME]
+name=vdiconverter
+
+[VERSION]
+version=0.2
+
+[RELEASE]
+release=0.mrx9
+
+[GROUP]
+group=Emulators
+
+[DESCRIPTION]
+0=VDIConverter - converting VDI files to TAR and SQFS (for MgaRemix)
+1=---
+2=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2022
+
+[SUMMARY]
+summary=VDIConverter - converting VDI files to TAR and SQFS
+
+[URLCOPY]
+urlcopy=https://github.com/AKotov-dev/vdiconverter
+
+[LICENSE]
+license=GPLv3
+
+[DEPS]
+deps=polkit zstd qemu-img squashfs-tools
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=0
+
+[SIGN]
+sign=0
+
+[DEB]
+deb=0
+
+[FILES]
+0=/usr/bin/vdiconverter
+1=/usr/share/applications/vdiconverter.desktop
+2=/usr/share/icons/vdiconverter.png
+3=/usr/share/polkit-1/actions/vdiconverter.policy
+4=/usr/share/vdiconverter/
+5=/usr/share/doc/vdiconverter/
+
+[AFTERINSTALL]
+0=#ldconfig
+1=#update-desktop-database -q /usr/share/applications
+2=#update-mime-database /usr/share/mime
+3=#gtk-update-icon-cache -q -f /usr/share/icons/hicolor
+
+[AFTERREMOVE]
+0=#ldconfig
+1=#update-desktop-database -q /usr/share/applications
+2=#update-mime-database /usr/share/mime
+3=#gtk-update-icon-cache -q -f /usr/share/icons/hicolor
+
+[URL32]
+url32=https://github.com/AKotov-dev/vdiconverter
+
+[URL64]
+url64=
+
+[PROGRAMNAME]
+programname=VDIConverter
+
+[DEVTOOL]
+devtool=Lazarus
+
+[TOOLVERSION]
+toolversion=2.2.0
+
+[INFO]
+0=VDIConverter
+1=RU
+2=VDIConverter - конвертирует файлы VDI (RootFS) в TAR и SQFS. Разметка диска виртуальной машины должна быть простейшей: своп + корень. Преобразование в TAR предназначено для создания архивов, которые можно импортировать в Docker для создания готового контейнера. Сжатие SQFS используется для создания готового модуля .sqfs для флешки MgaRemix или для другого (модульного) дистрибутива.
+3=
+4=EN
+5=VDIConverter - converting VDI files (RootFS) to TAR and SQFS. The virtual machine disk layout should be the simplest: swap + root. Conversion to TAR is designed to create archives that can be imported into Docker to create a ready-made container. SQFS compression is used to create a ready-made .sqfs module for an MgaRemix flash drive or for another (modular) distribution.
+6=
+7=VirtualBox (VDI) -> VDIConverter (TAR) -> Docker (Import)
+8=VirtualBox (VDI) -> VDIConverter (SQFS) -> USB flash drive/loopbacks/distrib.sqfs
