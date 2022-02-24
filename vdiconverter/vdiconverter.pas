@@ -14,7 +14,7 @@ uses {$IFDEF UNIX}
 
 begin
   Application.Scaled:=True;
-  Application.Title:='VDIConverter v0.2';
+  Application.Title:='VDIConverter v0.3';
   RequireDerivedFormResource := True;
   Application.Initialize;
   Application.CreateForm(TMainForm, MainForm);

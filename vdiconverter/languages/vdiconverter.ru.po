@@ -16,7 +16,9 @@ msgstr ""
 msgid "VDI"
 msgstr ""
 
-#: tmainform.addbtn1.caption
+#: tmainform.cancelbtn.caption
+#, fuzzy
+msgctxt "tmainform.cancelbtn.caption"
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -65,3 +67,4 @@ msgstr ""
 #: unit1.snosfxname
 msgid "The name of the archive is not listed!"
 msgstr ""
+

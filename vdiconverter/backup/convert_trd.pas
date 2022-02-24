@@ -106,10 +106,10 @@ begin
   for i := 0 to Result.Count - 1 do
     MainForm.LogMemo.Lines.Append(Result[i]);
 
-
   //Вывод пачками
   // MainForm.LogMemo.Lines.Assign(Result);
 
+  //Курсор в конец LogMemo
   MainForm.LogMemo.SelStart := Length(MainForm.LogMemo.Lines.Text);
 end;
 

@@ -5,8 +5,8 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ExtCtrls, ComCtrls, Menus, Process, DefaultTranslator,
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  ExtCtrls, ComCtrls, Process, DefaultTranslator,
   Buttons, IniPropStorage;
 
 type
@@ -14,7 +14,7 @@ type
   { TMainForm }
 
   TMainForm = class(TForm)
-    AddBtn1: TSpeedButton;
+    CancelBtn: TSpeedButton;
     Button1: TButton;
     Button6: TButton;
     Label3: TLabel;
@@ -29,7 +29,7 @@ type
     TARBtn: TSpeedButton;
     SQFSBtn: TSpeedButton;
     StaticText1: TStaticText;
-    procedure AddBtn1Click(Sender: TObject);
+    procedure CancelBtnClick(Sender: TObject);
     procedure AddBtnClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormShow(Sender: TObject);
@@ -58,25 +58,24 @@ uses convert_trd;
 
 { TMainForm }
 
-//Общая процедура запуска команд
+//Отмена конвертирования
 procedure TMainForm.KillAll;
 var
   ExProcess: TProcess;
 begin
   ExProcess := TProcess.Create(nil);
   try
-    ExProcess.Executable := 'bash';  //bash или terminal (sakura)
-    //   ExProcess.Options := [poWaitOnExit]; //Ждать терминал
-    ExProcess.Parameters.Add('-c');  //Не ждать терминал
-
+    ExProcess.Executable := 'bash';
+    // ExProcess.Options := [poWaitOnExit]; //Ждать терминал
+    ExProcess.Parameters.Add('-c');
     ExProcess.Parameters.Add('killall mksquashfs tar');
-
     ExProcess.Execute;
   finally
     ExProcess.Free;
   end;
 end;
 
+//Отмена конвертирования, если запущено
 procedure TMainForm.FormClose(Sender: TObject; var CloseAction: TCloseAction);
 begin
   KillAll;
@@ -93,7 +92,8 @@ begin
   end;
 end;
 
-procedure TMainForm.AddBtn1Click(Sender: TObject);
+//Отмена конвертирования
+procedure TMainForm.CancelBtnClick(Sender: TObject);
 begin
   KillAll;
 end;
@@ -105,6 +105,7 @@ begin
   MainForm.Caption := Application.Title;
 end;
 
+//Инициализация каталогов
 procedure TMainForm.FormCreate(Sender: TObject);
 begin
   //Проверяем/создаём рабочий каталог (root)
@@ -116,6 +117,7 @@ begin
   MainForm.Caption := Application.Title;
 end;
 
+//Конвертирование в SQFS
 procedure TMainForm.SQFSBtnClick(Sender: TObject);
 var
   FStartConvert: TThread;
@@ -131,17 +133,10 @@ begin
 
     FStartConvert := StartConvert.Create(False);
     FStartConvert.Priority := tpNormal;
-
- {   //Запускаем sfx-creator.sh
-    StartProcess('"' + ExtractFilePath(ParamStr(0)) + 'vdi-converter.sh" ' +
-      '"' + OpenDialog1.FileName + '" "' + SaveDialog1.FileName +
-      '" ' + 'sqfs', 'sakura');
-
-  //Сбрасываем незаконченные процессы tar, mksquashfs и т.д.
-  KillAll;}
   end;
 end;
 
+//Конвертирование в TAR
 procedure TMainForm.TARBtnClick(Sender: TObject);
 var
   FStartConvert: TThread;
@@ -157,14 +152,6 @@ begin
 
     FStartConvert := StartConvert.Create(False);
     FStartConvert.Priority := tpNormal;
-
-    //Запускаем sfx-creator.sh
- {   StartProcess('"' + ExtractFilePath(ParamStr(0)) + 'vdi-converter.sh" ' +
-      '"' + OpenDialog1.FileName + '" "' + SaveDialog1.FileName +
-      '" ' + 'tar', 'sakura');}
-
-    //Сбрасываем незаконченные процессы tar, mksquashfs и т.д.
-    // KillAll;
   end;
 end;
 
