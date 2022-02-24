@@ -1,5 +1,5 @@
 # VDIConverter
-Dependencies: polkit, zstd, qemu-img, squashfs-tools  
+Dependencies: polkit, tar, zstd, qemu-img, squashfs-tools  
 Free icons: https://icon-icons.com/ru  
   
 **RU**  
