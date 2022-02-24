@@ -72,7 +72,7 @@ begin
     ExProcess.Executable := 'bash';
     // ExProcess.Options := [poWaitOnExit]; //Ждать терминал
     ExProcess.Parameters.Add('-c');
-    ExProcess.Parameters.Add('killall mksquashfs tar');
+    ExProcess.Parameters.Add('killall mksquashfs tar; killall mksquashfs tar');
     ExProcess.Execute;
   finally
     ExProcess.Free;

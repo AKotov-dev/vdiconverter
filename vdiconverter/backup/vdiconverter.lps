@@ -50,7 +50,6 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="69"/>
         <CursorPos X="57" Y="78"/>
         <UsageCount Value="63"/>
@@ -60,10 +59,12 @@
       <Unit2>
         <Filename Value="convert_trd.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="73"/>
-        <CursorPos Y="85"/>
+        <CursorPos Y="97"/>
         <UsageCount Value="22"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="selectunit.pas"/>

@@ -79,7 +79,7 @@ begin
   end;
 end;
 
-
+//Отработка закрытия формы при запущенном конвертировании
 procedure TMainForm.FormCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
   if Started then
@@ -94,7 +94,7 @@ begin
   end;
 end;
 
-//Выбор файла vdi
+//Выбор файла VDI
 procedure TMainForm.AddBtnClick(Sender: TObject);
 begin
   if OpenDialog1.Execute then
