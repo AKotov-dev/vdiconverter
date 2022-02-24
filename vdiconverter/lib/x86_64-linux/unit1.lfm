@@ -6,7 +6,7 @@ object MainForm: TMainForm
   Caption = 'VDIConverter'
   ClientHeight = 654
   ClientWidth = 884
-  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
   OnShow = FormShow
   Position = poDefault

@@ -50,8 +50,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="36" Y="133"/>
+        <TopLine Value="69"/>
+        <CursorPos X="57" Y="78"/>
         <UsageCount Value="63"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -59,8 +59,10 @@
       <Unit2>
         <Filename Value="convert_trd.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos Y="52"/>
+        <TopLine Value="73"/>
+        <CursorPos Y="97"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -85,20 +87,7 @@
         <UsageCount Value="38"/>
       </Unit4>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
-      <Position1>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="40" Column="45" TopLine="80"/>
-      </Position1>
-      <Position2>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="103" Column="26" TopLine="82"/>
-      </Position2>
-      <Position3>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="98" TopLine="82"/>
-      </Position3>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode="default"/>

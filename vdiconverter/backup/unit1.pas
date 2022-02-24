@@ -6,8 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ExtCtrls, ComCtrls, Process, DefaultTranslator,
-  Buttons, IniPropStorage;
+  ExtCtrls, ComCtrls, Process, DefaultTranslator, Buttons, IniPropStorage;
 
 type
 
@@ -31,7 +30,7 @@ type
     StaticText1: TStaticText;
     procedure CancelBtnClick(Sender: TObject);
     procedure AddBtnClick(Sender: TObject);
-    procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
+    procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormShow(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure SQFSBtnClick(Sender: TObject);
@@ -44,11 +43,16 @@ type
 
   end;
 
+//Ресурсы перевода
+resourcestring
+  SCloseWarning = 'Closing will cancel the operation. Continue?';
+
 var
   MainForm: TMainForm;
 
 var
   command: string;
+  Started: boolean;
 
 implementation
 
@@ -75,10 +79,19 @@ begin
   end;
 end;
 
-//Отмена конвертирования, если запущено
-procedure TMainForm.FormClose(Sender: TObject; var CloseAction: TCloseAction);
+
+procedure TMainForm.FormCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
-  KillAll;
+  if Started then
+  begin
+    if MessageDlg(SCloseWarning, mtWarning, [mbYes, mbNo], 0) = mrYes then
+    begin
+      KillAll;
+      CanClose := True;
+    end
+    else
+      CanClose := False;
+  end;
 end;
 
 //Выбор файла vdi
@@ -127,7 +140,6 @@ begin
 
   if SaveDialog1.Execute then
   begin
-    LogMemo.Clear;
     Command := '"' + ExtractFilePath(ParamStr(0)) + 'vdi-converter.sh" "' +
       OpenDialog1.FileName + '" "' + SaveDialog1.FileName + '" ' + 'sqfs';
 
@@ -146,7 +158,6 @@ begin
 
   if SaveDialog1.Execute then
   begin
-    LogMemo.Clear;
     Command := '"' + ExtractFilePath(ParamStr(0)) + 'vdi-converter.sh" "' +
       OpenDialog1.FileName + '" "' + SaveDialog1.FileName + '" ' + 'tar';
 

@@ -66,7 +66,6 @@ begin
 
   finally
     Synchronize(@StopProgress);
-    //Для взаимного исключения выполнения команд и отображения списков Images/Containers/DockerCmd
     Result.Free;
     ExProcess.Free;
     Terminate;
@@ -80,7 +79,9 @@ procedure StartConvert.StartProgress;
 begin
   with MainForm do
   begin
+    Started := True; //Флаг запуска потока
     Application.ProcessMessages;
+    LogMemo.Clear;
     TARBtn.Enabled := False;
     SQFSBtn.Enabled := False;
   end;
@@ -91,7 +92,9 @@ procedure StartConvert.StopProgress;
 begin
   with MainForm do
   begin
+    Started := False; //Флаг останова потока
     Application.ProcessMessages;
+    LogMemo.Clear;
     TARBtn.Enabled := True;
     SQFSBtn.Enabled := True;
   end;

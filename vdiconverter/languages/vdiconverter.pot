@@ -40,19 +40,7 @@ msgctxt "tmainform.tarbtn.caption"
 msgid "TAR"
 msgstr ""
 
-#: unit1.sdeleteitems
-msgid "Delete the selected entries?"
-msgstr ""
-
-#: unit1.slistfileempty
-msgid "The list of files is empty!"
-msgstr ""
-
-#: unit1.snodestfolder
-msgid "Destination folder not found!"
-msgstr ""
-
-#: unit1.snosfxname
-msgid "The name of the archive is not listed!"
+#: unit1.sclosewarning
+msgid "Closing will cancel the operation. Continue?"
 msgstr ""
 
