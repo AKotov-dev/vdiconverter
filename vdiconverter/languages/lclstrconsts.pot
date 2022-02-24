@@ -1,1405 +1,1398 @@
 msgid ""
 msgstr ""
-"Last-Translator: Maxim Ganetsky <maxkill@mail.ru>\n"
-"Project-Id-Version: lazaruside\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2020-06-01 01:26+0300\n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Language: ru\n"
-"X-Generator: Poedit 2.2.1\n"
 
 #: lclstrconsts.hhshelpbrowsernotexecutable
 #, object-pascal-format
 msgid "Browser \"%s\" not executable."
-msgstr "Браузер \"%s\" не является исполнимым файлом."
+msgstr ""
 
 #: lclstrconsts.hhshelpbrowsernotfound
 #, object-pascal-format
 msgid "Browser \"%s\" not found."
-msgstr "Браузер \"%s\" не найден."
+msgstr ""
 
 #: lclstrconsts.hhshelperrorwhileexecuting
 #, object-pascal-format
 msgid "Error while executing \"%s\":%s%s"
-msgstr "Ошибка при исполнении \"%s\":%s%s"
+msgstr ""
 
 #: lclstrconsts.hhshelpnohtmlbrowserfound
 msgid "Unable to find a HTML browser."
-msgstr "Невозможно найти браузер HTML."
+msgstr ""
 
 #: lclstrconsts.hhshelpnohtmlbrowserfoundpleasedefineone
 #, object-pascal-format
 msgid "No HTML Browser found.%sPlease define one in Tools -> Options -> Help -> Help Options"
-msgstr "Браузер HTML не найден.%sЗадайте его в меню Сервис -> Параметры -> Параметры справки"
+msgstr ""
 
 #: lclstrconsts.hhshelpthehelpdatabasewasunabletofindfile
 #, object-pascal-format
 msgid "The help database \"%s\" was unable to find file \"%s\"."
-msgstr "База данных справки \"%s\" не смогла найти файл \"%s\"."
+msgstr ""
 
 #: lclstrconsts.hhshelpthemacrosinbrowserparamswillbereplacedbytheurl
 #, object-pascal-format
 msgid "The macro %s in BrowserParams will be replaced by the URL."
-msgstr "Макрос %s в BrowserParams будет заменён на URL."
+msgstr ""
 
 #: lclstrconsts.ifsalt
 msgid "Alt"
-msgstr "Alt"
+msgstr ""
 
 #: lclstrconsts.ifsctrl
 msgid "Ctrl"
-msgstr "Ctrl"
+msgstr ""
 
 #: lclstrconsts.ifsvk_cmd
 msgid "Cmd"
-msgstr "Cmd"
+msgstr ""
 
 #: lclstrconsts.ifsvk_help
 msgctxt "lclstrconsts.ifsvk_help"
 msgid "Help"
-msgstr "Справка"
+msgstr ""
 
 #: lclstrconsts.ifsvk_meta
 msgid "Meta"
-msgstr "Meta"
+msgstr ""
 
 #: lclstrconsts.ifsvk_shift
 msgid "Shift"
-msgstr "Shift"
+msgstr ""
 
 #: lclstrconsts.ifsvk_super
 msgid "Super"
-msgstr "Super"
+msgstr ""
 
 #: lclstrconsts.ifsvk_unknown
 msgid "Unknown"
-msgstr "Неизвестная"
+msgstr ""
 
 #: lclstrconsts.lislclresourcesnotfound
 #, object-pascal-format
 msgctxt "lclstrconsts.lislclresourcesnotfound"
 msgid "Resource %s not found"
-msgstr "Ресурс %s не найден"
+msgstr ""
 
 #: lclstrconsts.rs3ddkshadowcolorcaption
 msgid "3D Dark Shadow"
-msgstr "Затенённая часть объекта 3D"
+msgstr ""
 
 #: lclstrconsts.rs3dlightcolorcaption
 msgid "3D Light"
-msgstr "Освещённая часть объекта 3D"
+msgstr ""
 
 #: lclstrconsts.rsacontrolcannothaveitselfasparent
 msgid "A control can't have itself as a parent"
-msgstr "Элемент управления не может быть родителем сам себе"
+msgstr ""
 
 #: lclstrconsts.rsactivebordercolorcaption
 msgid "Active Border"
-msgstr "Граница активного окна"
+msgstr ""
 
 #: lclstrconsts.rsactivecaptioncolorcaption
 msgid "Active Caption"
-msgstr "Заголовок активного окна"
+msgstr ""
 
 #: lclstrconsts.rsallfiles
 #, object-pascal-format
 msgid "All files (%s)|%s|%s"
-msgstr "Все файлы (%s)|%s|%s"
+msgstr ""
 
 #: lclstrconsts.rsappworkspacecolorcaption
 msgid "Application Workspace"
-msgstr "Рабочая область приложения"
+msgstr ""
 
 #: lclstrconsts.rsaquacolorcaption
 msgid "Aqua"
-msgstr "Морской волны"
+msgstr ""
 
 #: lclstrconsts.rsascannothaveasparent
 #, object-pascal-format
 msgid "Class %s cannot have %s as parent."
-msgstr "Класс %s не может иметь %s в качестве родителя."
+msgstr ""
 
 #: lclstrconsts.rsbackgroundcolorcaption
 msgid "Desktop"
-msgstr "Рабочий стол"
+msgstr ""
 
 #: lclstrconsts.rsbackward
 msgid "Backward"
-msgstr "Назад"
+msgstr ""
 
 #: lclstrconsts.rsbitmaps
 msgid "Bitmaps"
-msgstr "Точечные рисунки"
+msgstr ""
 
 #: lclstrconsts.rsblackcolorcaption
 msgid "Black"
-msgstr "Чёрный"
+msgstr ""
 
 #: lclstrconsts.rsblank
 msgid "Blank"
-msgstr "Пустой"
+msgstr ""
 
 #: lclstrconsts.rsbluecolorcaption
 msgid "Blue"
-msgstr "Синий"
+msgstr ""
 
 #: lclstrconsts.rsbtnfacecolorcaption
 msgid "Button Face"
-msgstr "Лицевая часть кнопки"
+msgstr ""
 
 #: lclstrconsts.rsbtnhighlightcolorcaption
 msgid "Button Highlight"
-msgstr "Освещаемая сторона кнопки"
+msgstr ""
 
 #: lclstrconsts.rsbtnshadowcolorcaption
 msgid "Button Shadow"
-msgstr "Затенённая сторона кнопки"
+msgstr ""
 
 #: lclstrconsts.rsbtntextcolorcaption
 msgid "Button Text"
-msgstr "Текст кнопки"
+msgstr ""
 
 #: lclstrconsts.rscalculator
 msgid "Calculator"
-msgstr "Калькулятор"
+msgstr ""
 
 #: lclstrconsts.rscancelrecordhint
 msgctxt "lclstrconsts.rscancelrecordhint"
 msgid "Cancel"
-msgstr "Отмена"
+msgstr ""
 
 #: lclstrconsts.rscannotfocus
 msgid "Can not focus"
-msgstr "Не могу принять фокус"
+msgstr ""
 
 #: lclstrconsts.rscanvasdoesnotallowdrawing
 msgid "Canvas does not allow drawing"
-msgstr "Канва не поддерживает рисования"
+msgstr ""
 
 #: lclstrconsts.rscaptiontextcolorcaption
 msgid "Caption Text"
-msgstr "Текст заголовка"
+msgstr ""
 
 #: lclstrconsts.rscasesensitive
 msgid "Case sensitive"
-msgstr "С учётом регистра"
+msgstr ""
 
 #: lclstrconsts.rscontrolclasscantcontainchildclass
 #, object-pascal-format
 msgid "Control of class '%s' can't have control of class '%s' as a child"
-msgstr "Элемент управления класса '%s' не может иметь дочерний элемент управления класса '%s'"
+msgstr ""
 
 #: lclstrconsts.rscontrolhasnoparentformorframe
 #, object-pascal-format
 msgid "Control '%s' has no parent form or frame"
-msgstr "Элемент управления '%s' не имеет родительской формы или фрейма"
+msgstr ""
 
 #: lclstrconsts.rscontrolisnotaparent
 #, object-pascal-format
 msgid "'%s' is not a parent of '%s'"
-msgstr "'%s' не является родителем '%s'"
+msgstr ""
 
 #: lclstrconsts.rscreamcolorcaption
 msgid "Cream"
-msgstr "Кремовый"
+msgstr ""
 
 #: lclstrconsts.rscursor
 msgid "Cursor"
-msgstr "Курсор"
+msgstr ""
 
 #: lclstrconsts.rscustomcolorcaption
 msgid "Custom ..."
-msgstr "Пользовательский ..."
+msgstr ""
 
 #: lclstrconsts.rsdefaultcolorcaption
 msgid "Default"
-msgstr "По умолчанию"
+msgstr ""
 
 #: lclstrconsts.rsdefaultfileinfovalue
 msgid "permissions user group size date time"
-msgstr "права пользователь группа размер дата время"
+msgstr ""
 
 #: lclstrconsts.rsdeleterecord
 msgid "Delete record?"
-msgstr "Удалить запись?"
+msgstr ""
 
 #: lclstrconsts.rsdeleterecordhint
 msgctxt "lclstrconsts.rsdeleterecordhint"
 msgid "Delete"
-msgstr "Удалить"
+msgstr ""
 
 #: lclstrconsts.rsdirection
 msgid "Direction"
-msgstr "Направление"
+msgstr ""
 
 #: lclstrconsts.rsdirectory
 msgid "&Directory"
-msgstr "&Каталог"
+msgstr ""
 
 #: lclstrconsts.rsdocopy
 msgid "Copy"
-msgstr "Копировать"
+msgstr ""
 
 #: lclstrconsts.rsdopaste
 msgid "Paste"
-msgstr "Вставить"
+msgstr ""
 
 #: lclstrconsts.rsduplicateiconformat
 msgid "Duplicate icon format."
-msgstr "Формат значков дублируется."
+msgstr ""
 
 #: lclstrconsts.rseditrecordhint
 msgid "Edit"
-msgstr "Редактировать"
+msgstr ""
 
 #: lclstrconsts.rsentirescope
 msgid "Search entire file"
-msgstr "Во всём файле"
+msgstr ""
 
 #: lclstrconsts.rserror
 msgctxt "lclstrconsts.rserror"
 msgid "Error"
-msgstr "Ошибка"
+msgstr ""
 
 #: lclstrconsts.rserrorcreatingdevicecontext
 #, object-pascal-format
 msgid "Error creating device context for %s.%s"
-msgstr "Ошибка создания контекста устройства для %s.%s"
+msgstr ""
 
 #: lclstrconsts.rserroroccurredinataddressframe
 #, object-pascal-format
 msgid "Error occurred in %s at %sAddress %s%s Frame %s"
-msgstr "Произошла ошибка в %s по %s адресу %s%s фрейм %s"
+msgstr ""
 
 #: lclstrconsts.rserrorwhilesavingbitmap
 msgid "Error while saving bitmap."
-msgstr "Ошибка при сохранении точечного рисунка (bitmap)."
+msgstr ""
 
 #: lclstrconsts.rsexception
 msgid "Exception"
-msgstr "Исключение"
+msgstr ""
 
 #: lclstrconsts.rsfddirectorymustexist
 msgid "Directory must exist"
-msgstr "Каталог должен существовать"
+msgstr ""
 
 #: lclstrconsts.rsfddirectorynotexist
 #, object-pascal-format
 msgid "The directory \"%s\" does not exist."
-msgstr "Каталог \"%s\" не существует."
+msgstr ""
 
 #: lclstrconsts.rsfdfilealreadyexists
 #, object-pascal-format
 msgid "The file \"%s\" already exists. Overwrite ?"
-msgstr "Файл \"%s\" уже существует. Перезаписать?"
+msgstr ""
 
 #: lclstrconsts.rsfdfilemustexist
 msgid "File must exist"
-msgstr "Файл должен существовать"
+msgstr ""
 
 #: lclstrconsts.rsfdfilenotexist
 #, object-pascal-format
 msgid "The file \"%s\" does not exist."
-msgstr "Файл \"%s\" не существует"
+msgstr ""
 
 #: lclstrconsts.rsfdfilereadonly
 #, object-pascal-format
 msgid "The file \"%s\" is not writable."
-msgstr "Файл \"%s\" не доступен для записи."
+msgstr ""
 
 #: lclstrconsts.rsfdfilereadonlytitle
 msgid "File is not writable"
-msgstr "Файл не доступен для записи"
+msgstr ""
 
 #: lclstrconsts.rsfdfilesaveas
 msgid "Save file as"
-msgstr "Сохранить файл как"
+msgstr ""
 
 #: lclstrconsts.rsfdopenfile
 msgid "Open existing file"
-msgstr "Открыть существующий файл"
+msgstr ""
 
 #: lclstrconsts.rsfdoverwritefile
 msgid "Overwrite file ?"
-msgstr "Перезаписать файл?"
+msgstr ""
 
 #: lclstrconsts.rsfdpathmustexist
 msgid "Path must exist"
-msgstr "Путь должен существовать"
+msgstr ""
 
 #: lclstrconsts.rsfdpathnoexist
 #, object-pascal-format
 msgid "The path \"%s\" does not exist."
-msgstr "Путь \"%s\" не существует."
+msgstr ""
 
 #: lclstrconsts.rsfdselectdirectory
 msgid "Select Directory"
-msgstr "Выберите каталог"
+msgstr ""
 
 #: lclstrconsts.rsfileinfofilenotfound
 #, object-pascal-format
 msgid "(file not found: \"%s\")"
-msgstr "(файл не найден: \"%s\")"
+msgstr ""
 
 #: lclstrconsts.rsfileinformation
 msgid "File information"
-msgstr "Сведения о файле"
+msgstr ""
 
 #: lclstrconsts.rsfilter
 msgctxt "lclstrconsts.rsfilter"
 msgid "(filter)"
-msgstr "(фильтр)"
+msgstr ""
 
 #: lclstrconsts.rsfind
 msgid "Find"
-msgstr "Найти"
+msgstr ""
 
 #: lclstrconsts.rsfindmore
 msgid "Find more"
-msgstr "Найти далее"
+msgstr ""
 
 #: lclstrconsts.rsfirstrecordhint
 msgid "First"
-msgstr "Первая"
+msgstr ""
 
 #: lclstrconsts.rsfixedcolstoobig
 msgid "FixedCols can't be > ColCount"
-msgstr "Значение FixedCols не может превышать ColCount"
+msgstr ""
 
 #: lclstrconsts.rsfixedrowstoobig
 msgid "FixedRows can't be > RowCount"
-msgstr "Значение FixedRows не может превышать RowCount"
+msgstr ""
 
 #: lclstrconsts.rsformcolorcaption
 msgid "Form"
-msgstr "Форма"
+msgstr ""
 
 #: lclstrconsts.rsformresourcesnotfoundforresourcelessformscreatenew
 #, object-pascal-format
 msgid "Form resource %s not found. For resourceless forms CreateNew constructor must be used. See the global variable RequireDerivedFormResource."
-msgstr "Ресурс формы %s не найден. Для форм без ресурсов следует использовать конструктор CreateNew. Обратите внимание на глобальную переменную RequireDerivedFormResource."
+msgstr ""
 
 #: lclstrconsts.rsformstreamingerror
 #, object-pascal-format
 msgid "Form streaming \"%s\" error: %s"
-msgstr "Ошибка потоков \"%s\" форм: %s"
+msgstr ""
 
 #: lclstrconsts.rsforward
 msgid "Forward"
-msgstr "Вперёд"
+msgstr ""
 
 #: lclstrconsts.rsfuchsiacolorcaption
 msgid "Fuchsia"
-msgstr "Розовый"
+msgstr ""
 
 #: lclstrconsts.rsgdkoptiondebug
 msgid "--gdk-debug flags     Turn on specific GDK trace/debug messages."
-msgstr "--gdk-debug flags     Включить указанные отладочные сообщения GDK."
+msgstr ""
 
 #: lclstrconsts.rsgdkoptionnodebug
 msgid "--gdk-no-debug flags  Turn off specific GDK trace/debug messages."
-msgstr "--gdk-no-debug flags  Выключить указанные отладочные сообщения GDK."
+msgstr ""
 
 #: lclstrconsts.rsgif
 msgid "Graphics Interchange Format"
-msgstr "Формат Graphics Interchange Format"
+msgstr ""
 
 #: lclstrconsts.rsgoptionfatalwarnings
 msgid "--g-fatal-warnings    Warnings and errors generated by Gtk+/GDK will halt the application."
-msgstr "--g-fatal-warnings    Замечания и ошибки, выдаваемые Gtk+/GDK, остановят приложение."
+msgstr ""
 
 #: lclstrconsts.rsgradientactivecaptioncolorcaption
 msgid "Gradient Active Caption"
-msgstr "Градиент активного заголовка"
+msgstr ""
 
 #: lclstrconsts.rsgradientinactivecaptioncolorcaption
 msgid "Gradient Inactive Caption"
-msgstr "Градиент неактивного заголовка"
+msgstr ""
 
 #: lclstrconsts.rsgraphic
 msgid "Graphic"
-msgstr "Графические файлы"
+msgstr ""
 
 #: lclstrconsts.rsgraycolorcaption
 msgid "Gray"
-msgstr "Тёмно-серый"
+msgstr ""
 
 #: lclstrconsts.rsgraytextcolorcaption
 msgid "Gray Text"
-msgstr "Серый текст"
+msgstr ""
 
 #: lclstrconsts.rsgreencolorcaption
 msgid "Green"
-msgstr "Тёмно-зелёный"
+msgstr ""
 
 #: lclstrconsts.rsgridfiledoesnotexist
 msgid "Grid file doesn't exist"
-msgstr "Файл Grid не существует"
+msgstr ""
 
 #: lclstrconsts.rsgridhasnocols
 msgid "Cannot insert rows into a grid when it has no columns"
-msgstr "Невозможно вставить строки, если отсутствуют столбцы"
+msgstr ""
 
 #: lclstrconsts.rsgridhasnorows
 msgid "Cannot insert columns into a grid when it has no rows"
-msgstr "Невозможно вставить столбцы, если отсутствуют строки"
+msgstr ""
 
 #: lclstrconsts.rsgridindexoutofrange
 msgid "Grid index out of range."
-msgstr "Индекс Grid вне диапазона допустимых значений."
+msgstr ""
 
 #: lclstrconsts.rsgroupindexcannotbelessthanprevious
 msgid "GroupIndex cannot be less than a previous menu item's GroupIndex"
-msgstr "GroupIndex не может быть меньше GroupIndex для предыдущего элемента меню"
+msgstr ""
 
 #: lclstrconsts.rsgtkfilter
 msgid "Filter:"
-msgstr "Фильтр:"
+msgstr ""
 
 #: lclstrconsts.rsgtkhistory
 msgid "History:"
-msgstr "История:"
+msgstr ""
 
 #: lclstrconsts.rsgtkoptionclass
 msgid "--class classname     Following Xt conventions, the class of a program is the program name with the initial character capitalized. For example, the classname for gimp is \"Gimp\". If --class is specified, the class of the program will be set to \"classname\"."
-msgstr "--class classname      Следуя соглашениям Xt, класс программы - это имя программы с прописным первым символом. Например, имя класса для gimp - \"Gimp\". Если задан --class, класс программы будет установлен в \"classname\"."
+msgstr ""
 
 #: lclstrconsts.rsgtkoptiondebug
 msgid "--gtk-debug flags     Turn on specific Gtk+ trace/debug messages."
-msgstr "--gtk-debug flags     Включить указанные отладочные сообщения Gtk+."
+msgstr ""
 
 #: lclstrconsts.rsgtkoptiondisplay
 msgid "--display h:s:d       Connect to the specified X server, where \"h\" is the hostname, \"s\" is the server number (usually 0), and \"d\" is the display number (typically omitted). If --display is not specified, the DISPLAY environment variable is used."
-msgstr "--display h:s:d       Связаться с указанным сервером X, где \"h\" - имя хост-машины, \"s\" - номер сервера (обычно 0), и \"d\" - номер дисплея (обычно опускается). Если не задан --display, используется переменная окружения DISPLAY."
+msgstr ""
 
 #: lclstrconsts.rsgtkoptionmodule
 msgid "--gtk-module module   Load the specified module at startup."
-msgstr "--gtk-module модуль   Загрузить указанный модуль при запуске."
+msgstr ""
 
 #: lclstrconsts.rsgtkoptionname
 msgid "--name programe       Set program name to \"progname\". If not specified, program name will be set to ParamStrUTF8(0)."
-msgstr "--name имяпрог       Установить имя программы в \"имяпрог\". Если не задано, имя программы будет установлено в ParamStrUTF8(0)."
+msgstr ""
 
 #: lclstrconsts.rsgtkoptionnodebug
 msgid "--gtk-no-debug flags  Turn off specific Gtk+ trace/debug messages."
-msgstr "--gtk-no-debug flags  Выключить указанные отладочные сообщения Gtk+."
+msgstr ""
 
 #: lclstrconsts.rsgtkoptionnotransient
 msgid "--lcl-no-transient    Do not set transient order for modal forms"
-msgstr "--lcl-no-transient    Не устанавливать временный порядок модальных форм"
+msgstr ""
 
 #: lclstrconsts.rsgtkoptionnoxshm
 msgid "--no-xshm             Disable use of the X Shared Memory Extension."
-msgstr "--no-xshm             Запрет использования расширений X по разделяемой памяти."
+msgstr ""
 
 #: lclstrconsts.rsgtkoptionsync
 msgid "--sync                Call XSynchronize (display, True) after the Xserver connection has been established. This makes debugging X protocol errors easier, because X request buffering will be disabled and X errors will be received immediately after the protocol request that generated the error has been processed by the X server."
-msgstr "--sync                Вызвать XSynchronize (display, True) после установления соединения с сервером X. Это облегчает отладку ошибок протокола X, так как запросы буферизации X будут отключены, и ошибки X будут получаться сразу после обработки сервером X запроса протокола, который вызвал ошибку."
+msgstr ""
 
 #: lclstrconsts.rshelp
 msgctxt "lclstrconsts.rshelp"
 msgid "Help"
-msgstr "Справка"
+msgstr ""
 
 #: lclstrconsts.rshelpalreadyregistered
 #, object-pascal-format
 msgid "%s: Already registered"
-msgstr "%s: уже зарегистрирован"
+msgstr ""
 
 #: lclstrconsts.rshelpcontextnotfound
 msgid "A help database was found for this topic, but this topic was not found"
-msgstr "База данных справки была найдена для данной темы, но не содержит её"
+msgstr ""
 
 #: lclstrconsts.rshelpdatabasenotfound
 msgid "There is no help database installed for this topic"
-msgstr "База данных справки для данной темы не установлена"
+msgstr ""
 
 #: lclstrconsts.rshelperror
 msgid "Help Error"
-msgstr "Ошибка справки"
+msgstr ""
 
 #: lclstrconsts.rshelphelpcontextnotfound
 #, object-pascal-format
 msgid "Help context %s not found."
-msgstr "Контекст справки %s не найден."
+msgstr ""
 
 #: lclstrconsts.rshelphelpcontextnotfoundindatabase
 #, object-pascal-format
 msgid "Help context %s not found in Database \"%s\"."
-msgstr "Контекст справки %s не найден в базе данных \"%s\"."
+msgstr ""
 
 #: lclstrconsts.rshelphelpdatabasedidnotfoundaviewerforahelppageoftype
 #, object-pascal-format
 msgid "Help Database \"%s\" did not find a viewer for a help page of type %s"
-msgstr "База данных справки \"%s\" не нашла программу просмотра для страницы справки типа %s"
+msgstr ""
 
 #: lclstrconsts.rshelphelpdatabasenotfound
 #, object-pascal-format
 msgid "Help Database \"%s\" not found"
-msgstr "База данных справки \"%s\" не найдена"
+msgstr ""
 
 #: lclstrconsts.rshelphelpfordirectivenotfound
 #, object-pascal-format
 msgid "Help for directive \"%s\" not found."
-msgstr "Справка для директивы \"%s\" не найдена."
+msgstr ""
 
 #: lclstrconsts.rshelphelpfordirectivenotfoundindatabase
 #, object-pascal-format
 msgid "Help for directive \"%s\" not found in Database \"%s\"."
-msgstr "Справка для директивы \"%s\" в базе данных \"%s\" не найдена."
+msgstr ""
 
 #: lclstrconsts.rshelphelpkeywordnotfound
 #, object-pascal-format
 msgid "Help keyword \"%s\" not found."
-msgstr "Ключевое слово справки \"%s\" не найдено."
+msgstr ""
 
 #: lclstrconsts.rshelphelpkeywordnotfoundindatabase
 #, object-pascal-format
 msgid "Help keyword \"%s\" not found in Database \"%s\"."
-msgstr "Ключевое слово справки \"%s\" не найдено в базе данных \"%s\"."
+msgstr ""
 
 #: lclstrconsts.rshelphelpnodehasnohelpdatabase
 #, object-pascal-format
 msgid "Help node \"%s\" has no Help Database"
-msgstr "Элемент справки \"%s\" не имеет соответствующей базы данных"
+msgstr ""
 
 #: lclstrconsts.rshelpnohelpfoundforsource
 #, object-pascal-format
 msgid "No help found for line %d, column %d of %s."
-msgstr "Не найдено справки для строки %d, столбца %d из %s."
+msgstr ""
 
 #: lclstrconsts.rshelpnohelpnodesavailable
 msgid "No help entries available for this topic"
-msgstr "Доступные элементы справки для данной темы отсутствуют"
+msgstr ""
 
 #: lclstrconsts.rshelpnotfound
 msgid "No help found for this topic"
-msgstr "Справка для данной темы не найдена"
+msgstr ""
 
 #: lclstrconsts.rshelpnotregistered
 #, object-pascal-format
 msgid "%s: Not registered"
-msgstr "%s: Не зарегистрирован"
+msgstr ""
 
 #: lclstrconsts.rshelpselectorerror
 msgid "Help Selector Error"
-msgstr "Ошибка переключателя справки"
+msgstr ""
 
 #: lclstrconsts.rshelpthereisnoviewerforhelptype
 #, object-pascal-format
 msgid "There is no viewer for help type \"%s\""
-msgstr "Отсутствует программа просмотра для типа справки \"%s\""
+msgstr ""
 
 #: lclstrconsts.rshelpviewererror
 msgid "Help Viewer Error"
-msgstr "Ошибка программы просмотра справки"
+msgstr ""
 
 #: lclstrconsts.rshelpviewernotfound
 msgid "No viewer was found for this type of help content"
-msgstr "Программа просмотра справки для данного типа её содержимого не найдена"
+msgstr ""
 
 #: lclstrconsts.rshighlightcolorcaption
 msgid "Highlight"
-msgstr "Выделенное"
+msgstr ""
 
 #: lclstrconsts.rshighlighttextcolorcaption
 msgid "Highlight Text"
-msgstr "Текст выделенного"
+msgstr ""
 
 #: lclstrconsts.rshotlightcolorcaption
 msgid "Hot Light"
-msgstr "Выделение"
+msgstr ""
 
 #: lclstrconsts.rsicns
 msgid "Mac OS X Icon"
-msgstr "Значок Mac OS X"
+msgstr ""
 
 #: lclstrconsts.rsicon
 msgid "Icon"
-msgstr "Значок"
+msgstr ""
 
 #: lclstrconsts.rsiconimageempty
 msgid "Icon image cannot be empty"
-msgstr "Изображение значка не может быть пустым"
+msgstr ""
 
 #: lclstrconsts.rsiconimageformat
 msgid "Icon image must have the same format"
-msgstr "Изображение значка должно иметь тот же формат"
+msgstr ""
 
 #: lclstrconsts.rsiconimageformatchange
 msgid "Cannot change format of icon image"
-msgstr "Невозможно изменить формат изображения значка"
+msgstr ""
 
 #: lclstrconsts.rsiconimagesize
 msgid "Icon image must have the same size"
-msgstr "Изображение значка должно иметь тот же размер"
+msgstr ""
 
 #: lclstrconsts.rsiconimagesizechange
 msgid "Cannot change size of icon image"
-msgstr "Невозможно изменить размер изображения значка"
+msgstr ""
 
 #: lclstrconsts.rsiconnocurrent
 msgid "Icon has no current image"
-msgstr "Значок не имеет текущего изображения"
+msgstr ""
 
 #: lclstrconsts.rsinactivebordercolorcaption
 msgid "Inactive Border"
-msgstr "Граница неактивного окна"
+msgstr ""
 
 #: lclstrconsts.rsinactivecaptioncolorcaption
 msgctxt "lclstrconsts.rsinactivecaptioncolorcaption"
 msgid "Inactive Caption"
-msgstr "Заголовок неактивного окна"
+msgstr ""
 
 #: lclstrconsts.rsinactivecaptiontext
 msgctxt "lclstrconsts.rsinactivecaptiontext"
 msgid "Inactive Caption"
-msgstr "Заголовок неактивного окна"
+msgstr ""
 
 #: lclstrconsts.rsindexoutofbounds
 #, object-pascal-format
 msgid "%s Index %d out of bounds 0 .. %d"
-msgstr "%s Индекс %d вне диапазона 0 .. %d"
+msgstr ""
 
 #: lclstrconsts.rsindexoutofrange
 #, object-pascal-format
 msgid "Index Out of range Cell[Col=%d Row=%d]"
-msgstr "Индекс вне диапазона Cell[Col=%d Row=%d]"
+msgstr ""
 
 #: lclstrconsts.rsinfobkcolorcaption
 msgid "Info Background"
-msgstr "Фон сообщения"
+msgstr ""
 
 #: lclstrconsts.rsinfotextcolorcaption
 msgid "Info Text"
-msgstr "Текст сообщения"
+msgstr ""
 
 #: lclstrconsts.rsinsertrecordhint
 msgctxt "lclstrconsts.rsinsertrecordhint"
 msgid "Insert"
-msgstr "Вставить"
+msgstr ""
 
 #: lclstrconsts.rsinvaliddate
 #, object-pascal-format
 msgid "Invalid Date : %s"
-msgstr "Неверная дата: %s"
+msgstr ""
 
 #: lclstrconsts.rsinvaliddaterangehint
 #, object-pascal-format
 msgid "Invalid Date: %s. Must be between %s and %s"
-msgstr "Неверная дата: %s. Должна быть между %s and %s"
+msgstr ""
 
 #: lclstrconsts.rsinvalidformobjectstream
 msgid "invalid Form object stream"
-msgstr "неправильный поток объекта формы"
+msgstr ""
 
 #: lclstrconsts.rsinvalidpropertyvalue
 msgid "Invalid property value"
-msgstr "Неправильное значение свойства"
+msgstr ""
 
 #: lclstrconsts.rsinvalidstreamformat
 msgid "Invalid stream format"
-msgstr "Неправильный формат потока"
+msgstr ""
 
 #: lclstrconsts.rsisalreadyassociatedwith
 #, object-pascal-format
 msgid "%s is already associated with %s"
-msgstr "%s уже сопоставлено с %s"
+msgstr ""
 
 #: lclstrconsts.rsjpeg
 msgid "Joint Picture Expert Group"
-msgstr "Joint Picture Expert Group"
+msgstr ""
 
 #: lclstrconsts.rslastrecordhint
 msgid "Last"
-msgstr "Последняя"
+msgstr ""
 
 #: lclstrconsts.rslimecolorcaption
 msgid "Lime"
-msgstr "Зелёный"
+msgstr ""
 
 #: lclstrconsts.rslistindexexceedsbounds
 #, object-pascal-format
 msgid "List index exceeds bounds (%d)"
-msgstr "Индекс списка вне диапазона (%d)"
+msgstr ""
 
 #: lclstrconsts.rsmacosfileformat
 msgid "File Format:"
-msgstr "Формат файла:"
+msgstr ""
 
 #: lclstrconsts.rsmacosmenuhide
 #, object-pascal-format
 msgid "Hide %s"
-msgstr "Скрыть %s"
+msgstr ""
 
 #: lclstrconsts.rsmacosmenuhideothers
 msgid "Hide Others"
-msgstr "Скрыть остальные"
+msgstr ""
 
 #: lclstrconsts.rsmacosmenuquit
 #, object-pascal-format
 msgid "Quit %s"
-msgstr "Завершить %s"
+msgstr ""
 
 #: lclstrconsts.rsmacosmenuservices
 msgid "Services"
-msgstr "Службы"
+msgstr ""
 
 #: lclstrconsts.rsmacosmenushowall
 msgid "Show All"
-msgstr "Показать все"
+msgstr ""
 
 #: lclstrconsts.rsmarooncolorcaption
 msgid "Maroon"
-msgstr "Малиновый"
+msgstr ""
 
 #: lclstrconsts.rsmbabort
 msgid "Abort"
-msgstr "Прервать"
+msgstr ""
 
 #: lclstrconsts.rsmball
 msgid "&All"
-msgstr "&Все"
+msgstr ""
 
 #: lclstrconsts.rsmbcancel
 msgctxt "lclstrconsts.rsmbcancel"
 msgid "Cancel"
-msgstr "Отмена"
+msgstr ""
 
 #: lclstrconsts.rsmbclose
 msgid "&Close"
-msgstr "&Закрыть"
+msgstr ""
 
 #: lclstrconsts.rsmbhelp
 msgid "&Help"
-msgstr "&Справка"
+msgstr ""
 
 #: lclstrconsts.rsmbignore
 msgid "&Ignore"
-msgstr "&Пропустить"
+msgstr ""
 
 #: lclstrconsts.rsmbno
 msgid "&No"
-msgstr "&Нет"
+msgstr ""
 
 #: lclstrconsts.rsmbnotoall
 msgid "No to all"
-msgstr "Нет для всех"
+msgstr ""
 
 #: lclstrconsts.rsmbok
 msgid "&OK"
-msgstr "&ОК"
+msgstr ""
 
 #: lclstrconsts.rsmbopen
 msgid "&Open"
-msgstr "&Открыть"
+msgstr ""
 
 #: lclstrconsts.rsmbretry
 msgid "&Retry"
-msgstr "&Повтор"
+msgstr ""
 
 #: lclstrconsts.rsmbsave
 msgid "&Save"
-msgstr "&Сохранить"
+msgstr ""
 
 #: lclstrconsts.rsmbunlock
 msgid "&Unlock"
-msgstr "&Разблокировать"
+msgstr ""
 
 #: lclstrconsts.rsmbyes
 msgid "&Yes"
-msgstr "&Да"
+msgstr ""
 
 #: lclstrconsts.rsmbyestoall
 msgid "Yes to &All"
-msgstr "Да для &всех"
+msgstr ""
 
 #: lclstrconsts.rsmedgraycolorcaption
 msgid "Medium Gray"
-msgstr "Серый"
+msgstr ""
 
 #: lclstrconsts.rsmenubarcolorcaption
 msgid "Menu Bar"
-msgstr "Панель меню"
+msgstr ""
 
 #: lclstrconsts.rsmenucolorcaption
 msgctxt "lclstrconsts.rsmenucolorcaption"
 msgid "Menu"
-msgstr "Меню"
+msgstr ""
 
 #: lclstrconsts.rsmenuhighlightcolorcaption
 msgid "Menu Highlight"
-msgstr "Выделенный пункт меню"
+msgstr ""
 
 #: lclstrconsts.rsmenutextcolorcaption
 msgid "Menu Text"
-msgstr "Текст меню"
+msgstr ""
 
 #: lclstrconsts.rsmodified
 msgid "  modified "
-msgstr "  изменён "
+msgstr ""
 
 #: lclstrconsts.rsmoneygreencolorcaption
 msgid "Money Green"
-msgstr "Светло-зелёный"
+msgstr ""
 
 #: lclstrconsts.rsmtauthentication
 msgid "Authentication"
-msgstr "Проверка подлинности"
+msgstr ""
 
 #: lclstrconsts.rsmtconfirmation
 msgid "Confirmation"
-msgstr "Подтверждение"
+msgstr ""
 
 #: lclstrconsts.rsmtcustom
 msgid "Custom"
-msgstr "Пользовательский"
+msgstr ""
 
 #: lclstrconsts.rsmterror
 msgctxt "lclstrconsts.rsmterror"
 msgid "Error"
-msgstr "Ошибка"
+msgstr ""
 
 #: lclstrconsts.rsmtinformation
 msgid "Information"
-msgstr "Сведения"
+msgstr ""
 
 #: lclstrconsts.rsmtwarning
 msgid "Warning"
-msgstr "Предупреждение"
+msgstr ""
 
 #: lclstrconsts.rsnavycolorcaption
 msgid "Navy"
-msgstr "Тёмно-синий"
+msgstr ""
 
 #: lclstrconsts.rsnextrecordhint
 msgctxt "lclstrconsts.rsnextrecordhint"
 msgid "Next"
-msgstr "Следующая"
+msgstr ""
 
 #: lclstrconsts.rsnonecolorcaption
 msgid "None"
-msgstr "Нет"
+msgstr ""
 
 #: lclstrconsts.rsnotavalidgridfile
 msgid "Not a valid grid file"
-msgstr "Неверный файл Grid"
+msgstr ""
 
 #: lclstrconsts.rsnowidgetset
 msgid "No widgetset object. Please check if the unit \"interfaces\" was added to the programs uses clause."
-msgstr "Отсутствует объект библиотеки виджетов. Проверьте, что модуль \"interfaces\" был добавлен в выражение Uses программы."
+msgstr ""
 
 #: lclstrconsts.rsolivecolorcaption
 msgid "Olive"
-msgstr "Оливковый"
+msgstr ""
 
 #: lclstrconsts.rspickdate
 msgid "Select a date"
-msgstr "Выберите дату"
+msgstr ""
 
 #: lclstrconsts.rspixmap
 msgid "Pixmap"
-msgstr "Pixmap"
+msgstr ""
 
 #: lclstrconsts.rsportablebitmap
 msgid "Portable BitMap"
-msgstr "Portable BitMap"
+msgstr ""
 
 #: lclstrconsts.rsportablegraymap
 msgid "Portable GrayMap"
-msgstr "Portable GrayMap"
+msgstr ""
 
 #: lclstrconsts.rsportablenetworkgraphic
 msgid "Portable Network Graphic"
-msgstr "Portable Network Graphic"
+msgstr ""
 
 #: lclstrconsts.rsportablepixmap
 msgid "Portable PixMap"
-msgstr "Portable PixMap"
+msgstr ""
 
 #: lclstrconsts.rspostrecordhint
 msgid "Post"
-msgstr "Отправить"
+msgstr ""
 
 #: lclstrconsts.rspressoktoignoreandriskdatacorruptionpressaborttok
 #, object-pascal-format
 msgid "%s%sPress OK to ignore and risk data corruption.%sPress Abort to kill the program."
-msgstr "%s%sНажмите 'OK', чтобы игнорировать и подвергнуться риску повреждения данных.%sНажмите 'Прервать' для закрытия программы."
+msgstr ""
 
 #: lclstrconsts.rspriorrecordhint
 msgctxt "lclstrconsts.rspriorrecordhint"
 msgid "Prior"
-msgstr "Предыдущая"
+msgstr ""
 
 #: lclstrconsts.rspromptonreplace
 msgid "Prompt on replace"
-msgstr "Спрашивать при &замене"
+msgstr ""
 
 #: lclstrconsts.rspropertydoesnotexist
 #, object-pascal-format
 msgid "Property %s does not exist"
-msgstr "Свойство %s не существует"
+msgstr ""
 
 #: lclstrconsts.rspurplecolorcaption
 msgid "Purple"
-msgstr "Лиловый"
+msgstr ""
 
 #: lclstrconsts.rsqtoptiondisableaccurateframe
 msgid "-disableaccurateframe, disables fully accurate window frame under X11. This feature is implemented for Qt, Qt5 and Gtk2 interfaces and used mostly by GetWindowRect()."
-msgstr "-disableaccurateframe, отключает определение точных границ окна в X11. Эта возможность реализована для интерфейсов Qt, Qt5 и Gtk2 и используется преимущественно GetWindowRect()."
+msgstr ""
 
 #: lclstrconsts.rsqtoptiondograb
 msgid "-dograb (only under X11), running under a debugger can cause an implicit -nograb, use -dograb to override. Need QT_DEBUG."
-msgstr "-dograb (только в X11), запуск в отладчике может повлечь неявный -nograb, используйте -dograb для отмены. Требуется QT_DEBUG."
+msgstr ""
 
 #: lclstrconsts.rsqtoptiongraphicsstyle
 msgid "-graphicssystem param, sets the backend to be used for on-screen widgets and QPixmaps. Available options are native, raster and opengl. OpenGL is still unstable."
-msgstr "-graphicssystem param, устанавливает используемый механизм отрисовки экранных виджетов и QPixmaps. Доступные варианты: native, raster и opengl. OpenGL всё ещё нестабилен."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionnograb
 msgid "-nograb, tells Qt that it must never grab the mouse or the keyboard. Need QT_DEBUG."
-msgstr "-nograb, запрещает Qt захват мыши или клавиатуры. Требует QT_DEBUG."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionreverse
 msgid "-reverse, sets the application's layout direction to Qt::RightToLeft."
-msgstr "-reverse, устанавливает направление размещения виджетов приложения в Qt::RightToLeft."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionsession
 msgid "-session session, restores the application from an earlier session."
-msgstr "-session session, восстанавливает приложение из более ранней сессии."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionstyle
 msgid "-style style or -style=style, sets the application GUI style. Possible values are motif, windows, and platinum. If you compiled Qt with additional styles or have additional styles as plugins these will be available to the -style  command line option. NOTE: Not all styles are available on all platforms. If style param does not exist Qt will start an application with default common style (windows)."
-msgstr "-style style или -style=style, устанавливает стиль виджетов интерфейса приложения. Возможные значения: motif, windows, и platinum. Если Qt собран с дополнительными стилями или они имеются в виде модулей, эти стили будут доступны в команде -style. ПРИМЕЧАНИЕ: не все стили доступны на всех платформах. Если стиль отсутствует, Qt запустит приложение со стилем по умолчанию (windows)."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionstylesheet
 msgid "-stylesheet stylesheet or -stylesheet=stylesheet, sets the application Style Sheet. The value must be a path to a file that contains the Style Sheet. Note: Relative URLs in the Style Sheet file are relative to the Style Sheet file's path."
-msgstr "-stylesheet stylesheet или -stylesheet=stylesheet, устанавливает таблицу стилей приложения (Style Sheet). Значение должно являться путём к файлу с таблицей стилей. Примечание: относительные URL'ы в таблице стилей даются относительно пути к файлу таблицы стилей."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionsync
 msgid "-sync (only under X11), switches to synchronous mode for debugging."
-msgstr "-sync (только в X11), устанавливает синхронный режим отладки."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionwidgetcount
 msgid "-widgetcount, prints debug message at the end about number of widgets left undestroyed and maximum number of widgets existed at the same time."
-msgstr "-widgetcount, выводит отладочное сообщение в конце о количестве неуничтоженных, а также максимальном количестве существовавших в один момент времени виджетов."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11bgcolor
 msgid "-bg or -background color, sets the default background color and an application palette (light and dark shades are calculated)."
-msgstr "-bg или -background color, устанавливает цвет фона по умолчанию и палитру приложения (вычисляются светлые и тёмные оттенки)."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11btncolor
 msgid "-btn or -button color, sets the default button color."
-msgstr "-btn или -button color, устанавливает цвет кнопки по умолчанию."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11cmap
 msgid "-cmap, causes the application to install a private color map on an 8-bit display."
-msgstr "-cmap, вызывает установку собственной цветовой карты приложением на 8-разрядном дисплее."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11display
 msgid "-display display, sets the X display (default is $DISPLAY)."
-msgstr "-display display, устанавливает дисплей X (по умолчанию - $DISPLAY)."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11fgcolor
 msgid "-fg or -foreground color, sets the default foreground color."
-msgstr "-fg или -foreground color, устанавливает цвет текста по умолчанию."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11font
 msgid "-fn or -font font, defines the application font. The font should be specified using an X logical font description."
-msgstr "-fn или -font font, задаёт шрифт приложения. Он должен быть указан с использованием логического описания шрифтов X."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11geometry
 msgid "-geometry geometry, sets the client geometry of the first window that is shown."
-msgstr "-geometry geometry, устанавливает клиентскую геометрию первого показанного окна."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11im
 msgid "-im, sets the input method server (equivalent to setting the XMODIFIERS environment variable)."
-msgstr "-im, устанавливает сервер методов ввода (эквивалентно установке значения переменной окружения XMODIFIERS)."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11inputstyle
 msgid "-inputstyle, defines how the input is inserted into the given widget, e.g. onTheSpot makes the input appear directly in the widget, while overTheSpot makes the input appear in a box floating over the widget and is not inserted until the editing is done."
-msgstr "-inputstyle, задаёт, как вводимая информация вносится в данный виджет. Например, onTheSpot приводит к прямому появлению вводимой информации в виджете, тогда как overTheSpot вызывает появление информации в поле, находящемся над виджетом, и не вставляется до окончания редактирования."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11name
 msgid "-name name, sets the application name."
-msgstr "-name name, устанавливает имя приложения."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11ncols
 msgid "-ncols count, limits the number of colors allocated in the color cube on an 8-bit display, if the application is using the QApplication::ManyColor color specification. If count is 216 then a 6x6x6 color cube is used (i.e. 6 levels of red, 6 of green, and 6 of blue); for other values, a cube approximately proportional to a 2x3x1 cube is used."
-msgstr "-ncols count, ограничивает число цветов в цветовом кубе 8-разрядного дисплея, если приложение использует перечень цветов QApplication::ManyColor. Если количество равно 216, используется цветовой куб 6x6x6 (то есть, 6 уровней красного, 6 зелёного и 6 синего); для других значений используется куб, примерно пропорциональный кубу 2x3x1."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11title
 msgid "-title title, sets the application title."
-msgstr "-title title, устанавливает заголовок приложения."
+msgstr ""
 
 #: lclstrconsts.rsqtoptionx11visual
 msgid "-visual TrueColor, forces the application to use a TrueColor visual on an 8-bit display."
-msgstr "-visual TrueColor, вынуждает приложение использовать TrueColor на 8-разрядном дисплее."
+msgstr ""
 
 #: lclstrconsts.rsrasterimageendupdate
 msgid "Endupdate while no update in progress"
-msgstr "Команда Endupdate, хотя обновления не производилось"
+msgstr ""
 
 #: lclstrconsts.rsrasterimagesaveinupdate
 msgid "Cannot save image while update in progress"
-msgstr "Невозможно сохранить изображение во время обновления"
+msgstr ""
 
 #: lclstrconsts.rsrasterimageupdateall
 msgid "Cannot begin update all when canvas only update in progress"
-msgstr "Невозможно начать обновление всех во время обновления канвы"
+msgstr ""
 
 #: lclstrconsts.rsredcolorcaption
 msgid "Red"
-msgstr "Красный"
+msgstr ""
 
 #: lclstrconsts.rsrefreshrecordshint
 msgid "Refresh"
-msgstr "Обновить"
+msgstr ""
 
 #: lclstrconsts.rsreplace
 msgid "Replace"
-msgstr "Заменить"
+msgstr ""
 
 #: lclstrconsts.rsreplaceall
 msgid "Replace all"
-msgstr "Заменить всё"
+msgstr ""
 
 #: lclstrconsts.rsresourcenotfound
 #, object-pascal-format
 msgctxt "lclstrconsts.rsresourcenotfound"
 msgid "Resource %s not found"
-msgstr "Ресурс %s не найден"
+msgstr ""
 
 #: lclstrconsts.rsscrollbarcolorcaption
 msgid "ScrollBar"
-msgstr "Полоса прокрутки"
+msgstr ""
 
 #: lclstrconsts.rsscrollbaroutofrange
 msgid "ScrollBar property out of range"
-msgstr "свойство ScrollBar вне диапазона"
+msgstr ""
 
 #: lclstrconsts.rsselectcolortitle
 msgid "Select color"
-msgstr "Выбрать цвет"
+msgstr ""
 
 #: lclstrconsts.rsselectfonttitle
 msgid "Select a font"
-msgstr "Выбрать шрифт"
+msgstr ""
 
 #: lclstrconsts.rssilvercolorcaption
 msgid "Silver"
-msgstr "Серебристый"
+msgstr ""
 
 #: lclstrconsts.rssize
 msgid "  size "
-msgstr "  размер "
+msgstr ""
 
 #: lclstrconsts.rsskybluecolorcaption
 msgid "Sky Blue"
-msgstr "Голубой"
+msgstr ""
 
 #: lclstrconsts.rstcustomtabcontrolaccessibilitydescription
 msgid "A control with tabs"
-msgstr "Элемент управления со вкладками"
+msgstr ""
 
 #: lclstrconsts.rstealcolorcaption
 msgid "Teal"
-msgstr "Бирюзовый"
+msgstr ""
 
 #: lclstrconsts.rstext
 msgid "Text"
-msgstr "Текст"
+msgstr ""
 
 #: lclstrconsts.rsthebuiltinurlisreadonlychangethebaseurlinstead
 msgid "The built-in URL is read only. Change the BaseURL instead."
-msgstr "Встроенный URL доступен только для чтения. Вместо него следует изменять BaseURL."
+msgstr ""
 
 #: lclstrconsts.rstiff
 msgid "Tagged Image File Format"
-msgstr "Формат Tagged Image File"
+msgstr ""
 
 #: lclstrconsts.rstpanelaccessibilitydescription
 msgctxt "lclstrconsts.rstpanelaccessibilitydescription"
 msgid "Panel"
-msgstr "Панель"
+msgstr ""
 
 #: lclstrconsts.rstsplitteraccessibilitydescription
 msgctxt "lclstrconsts.rstsplitteraccessibilitydescription"
 msgid "A grip to control how much size to give two parts of an area"
-msgstr "Захват для управления соотношением размеров двух областей"
+msgstr ""
 
 #: lclstrconsts.rsttreeviewaccessibilitydescription
 msgctxt "lclstrconsts.rsttreeviewaccessibilitydescription"
 msgid "A tree of items"
-msgstr "Дерево элементов"
+msgstr ""
 
 #: lclstrconsts.rsunabletoloaddefaultfont
 msgid "Unable to load default font"
-msgstr "Невозможно загрузить шрифт по умолчанию"
+msgstr ""
 
 #: lclstrconsts.rsunknownerrorpleasereportthisbug
 msgid "Unknown Error, please report this bug"
-msgstr "Неизвестная ошибка, сообщите о ней разработчикам"
+msgstr ""
 
 #: lclstrconsts.rsunknownpictureextension
 msgid "Unknown picture extension"
-msgstr "Неизвестное расширение файла изображения"
+msgstr ""
 
 #: lclstrconsts.rsunknownpictureformat
 msgid "Unknown picture format"
-msgstr "Неизвестный формат изображения"
+msgstr ""
 
 #: lclstrconsts.rsunsupportedbitmapformat
 msgid "Unsupported bitmap format."
-msgstr "Неподдерживаемый тип точечного рисунка."
+msgstr ""
 
 #: lclstrconsts.rsunsupportedclipboardformat
 #, object-pascal-format
 msgid "Unsupported clipboard format: %s"
-msgstr "Неподдерживаемый формат буфера обмена: %s"
+msgstr ""
 
 #: lclstrconsts.rswarningunreleaseddcsdump
 #, object-pascal-format
 msgid " WARNING: There are %d unreleased DCs, a detailed dump follows:"
-msgstr " ВНИМАНИЕ: Найдено %d неосвобождённых контекстов устройств, список см. ниже:"
+msgstr ""
 
 #: lclstrconsts.rswarningunreleasedgdiobjectsdump
 #, object-pascal-format
 msgid " WARNING: There are %d unreleased GDIObjects, a detailed dump follows:"
-msgstr " ВНИМАНИЕ: Найдено %d неосвобождённых GDIObject, список см. ниже:"
+msgstr ""
 
 #: lclstrconsts.rswarningunreleasedmessagesinqueue
 #, object-pascal-format
 msgid " WARNING: There are %d messages left in the queue! I'll free them"
-msgstr " ВНИМАНИЕ: В очереди осталось %d сообщений! Они будут удалены"
+msgstr ""
 
 #: lclstrconsts.rswarningunreleasedtimerinfos
 #, object-pascal-format
 msgid " WARNING: There are %d TimerInfo structures left, I'll free them"
-msgstr " ВНИМАНИЕ: Осталось %d структур TimerInfo, они будут освобождены"
+msgstr ""
 
 #: lclstrconsts.rswarningunremovedpaintmessages
 #, object-pascal-format
 msgid " WARNING: There are %s unremoved LM_PAINT/LM_GtkPAINT message links left."
-msgstr " ВНИМАНИЕ: Найдено %s неудалённых ссылок на сообщение LM_PAINT/LM_GtkPAINT."
+msgstr ""
 
 #: lclstrconsts.rswhitecolorcaption
 msgid "White"
-msgstr "Белый"
+msgstr ""
 
 #: lclstrconsts.rswholewordsonly
 msgid "Whole words only"
-msgstr "Только целые слова"
+msgstr ""
 
 #: lclstrconsts.rswin32error
 msgid "Error:"
-msgstr "Ошибка:"
+msgstr ""
 
 #: lclstrconsts.rswin32warning
 msgid "Warning:"
-msgstr "Предупреждение:"
+msgstr ""
 
 #: lclstrconsts.rswindowcolorcaption
 msgid "Window"
-msgstr "Окно"
+msgstr ""
 
 #: lclstrconsts.rswindowframecolorcaption
 msgid "Window Frame"
-msgstr "Граница окна"
+msgstr ""
 
 #: lclstrconsts.rswindowtextcolorcaption
 msgid "Window Text"
-msgstr "Текст окна"
+msgstr ""
 
 #: lclstrconsts.rsyellowcolorcaption
 msgid "Yellow"
-msgstr "Жёлтый"
+msgstr ""
 
 #: lclstrconsts.scannotfocus
 msgid "Cannot focus a disabled or invisible window"
-msgstr "Невозможно перевести фокус в отключённое или невидимое окно"
+msgstr ""
 
 #: lclstrconsts.sduplicatemenus
 msgid "Duplicate menus"
-msgstr "Дублирующиеся меню"
+msgstr ""
 
 #: lclstrconsts.sinvalidactioncreation
 msgid "Invalid action creation"
-msgstr "Неверное создание действия"
+msgstr ""
 
 #: lclstrconsts.sinvalidactionenumeration
 msgid "Invalid action enumeration"
-msgstr "Неверное перечисление действий"
+msgstr ""
 
 #: lclstrconsts.sinvalidactionregistration
 msgid "Invalid action registration"
-msgstr "Неверная регистрация действия"
+msgstr ""
 
 #: lclstrconsts.sinvalidactionunregistration
 msgid "Invalid action unregistration"
-msgstr "Неверная разрегистрация действия"
+msgstr ""
 
 #: lclstrconsts.sinvalidimagesize
 msgid "Invalid image size"
-msgstr "Неверный размер рисунка"
+msgstr ""
 
 #: lclstrconsts.sinvalidindex
 msgid "Invalid ImageList Index"
-msgstr "Неверный индекс ImageList"
+msgstr ""
 
 #: lclstrconsts.smaskeditnomatch
 msgid "The current text does not match the specified mask."
-msgstr "Текущий текст не соответствует заданной маске."
+msgstr ""
 
 #: lclstrconsts.smenuindexerror
 msgid "Menu index out of range"
-msgstr "Индекс меню вне диапазона"
+msgstr ""
 
 #: lclstrconsts.smenuitemisnil
 msgid "MenuItem is nil"
-msgstr "MenuItem указывает на нуль"
+msgstr ""
 
 #: lclstrconsts.smenunotfound
 msgid "Sub-menu is not in menu"
-msgstr "Подменю не в меню"
+msgstr ""
 
 #: lclstrconsts.smkcalt
 msgid "Alt+"
-msgstr "Alt+"
+msgstr ""
 
 #: lclstrconsts.smkcbksp
 msgid "BkSp"
-msgstr "Забой"
+msgstr ""
 
 #: lclstrconsts.smkcctrl
 msgid "Ctrl+"
-msgstr "Ctrl+"
+msgstr ""
 
 #: lclstrconsts.smkcdel
 msgid "Del"
-msgstr "Del"
+msgstr ""
 
 #: lclstrconsts.smkcdown
 msgctxt "lclstrconsts.smkcdown"
 msgid "Down"
-msgstr "Вниз"
+msgstr ""
 
 #: lclstrconsts.smkcend
 msgctxt "lclstrconsts.smkcend"
 msgid "End"
-msgstr "End"
+msgstr ""
 
 #: lclstrconsts.smkcenter
 msgid "Enter"
-msgstr "Ввод"
+msgstr ""
 
 #: lclstrconsts.smkcesc
 msgid "Esc"
-msgstr "Esc"
+msgstr ""
 
 #: lclstrconsts.smkchome
 msgctxt "lclstrconsts.smkchome"
 msgid "Home"
-msgstr "Home"
+msgstr ""
 
 #: lclstrconsts.smkcins
 msgid "Ins"
-msgstr "Ins"
+msgstr ""
 
 #: lclstrconsts.smkcleft
 msgctxt "lclstrconsts.smkcleft"
 msgid "Left"
-msgstr "Влево"
+msgstr ""
 
 #: lclstrconsts.smkcmeta
 msgid "Meta+"
-msgstr "Meta+"
+msgstr ""
 
 #: lclstrconsts.smkcpgdn
 msgid "PgDn"
-msgstr "PgDn"
+msgstr ""
 
 #: lclstrconsts.smkcpgup
 msgid "PgUp"
-msgstr "PgUp"
+msgstr ""
 
 #: lclstrconsts.smkcright
 msgctxt "lclstrconsts.smkcright"
 msgid "Right"
-msgstr "Вправо"
+msgstr ""
 
 #: lclstrconsts.smkcshift
 msgid "Shift+"
-msgstr "Shift+"
+msgstr ""
 
 #: lclstrconsts.smkcspace
 msgid "Space"
-msgstr "Пробел"
+msgstr ""
 
 #: lclstrconsts.smkctab
 msgctxt "lclstrconsts.smkctab"
 msgid "Tab"
-msgstr "Таб"
+msgstr ""
 
 #: lclstrconsts.smkcup
 msgctxt "lclstrconsts.smkcup"
 msgid "Up"
-msgstr "Вверх"
+msgstr ""
 
 #: lclstrconsts.snotimers
 msgid "No timers available"
-msgstr "Таймеры недоступны"
+msgstr ""
 
 #: lclstrconsts.sparentrequired
 #, object-pascal-format
 msgid "Control \"%s\" has no parent window."
-msgstr "Элемент управления \"%s\" не имеет родительского окна."
+msgstr ""
 
 #: lclstrconsts.sparexpected
 #, object-pascal-format
 msgid "Wrong token type: %s expected"
-msgstr "Неверный тип лексемы: ожидался %s"
+msgstr ""
 
 #: lclstrconsts.sparinvalidfloat
 #, object-pascal-format
 msgid "Invalid floating point number: %s"
-msgstr "Неверное число с плавающей точкой: %s"
+msgstr ""
 
 #: lclstrconsts.sparinvalidinteger
 #, object-pascal-format
 msgid "Invalid integer number: %s"
-msgstr "Неверное целое число: %s"
+msgstr ""
 
 #: lclstrconsts.sparlocinfo
 #, object-pascal-format
 msgid " (at %d,%d, stream offset %d)"
-msgstr " (на %d,%d, смещение потока %d)"
+msgstr ""
 
 #: lclstrconsts.sparunterminatedbinvalue
 msgid "Unterminated byte value"
-msgstr "Незавершённое значение байта"
+msgstr ""
 
 #: lclstrconsts.sparunterminatedstring
 msgid "Unterminated string"
-msgstr "Незавершённая строка"
+msgstr ""
 
 #: lclstrconsts.sparwrongtokensymbol
 #, object-pascal-format
 msgid "Wrong token symbol: %s expected but %s found"
-msgstr "Неверный символ лексемы: ожидался %s, но найден %s"
+msgstr ""
 
 #: lclstrconsts.sparwrongtokentype
 #, object-pascal-format
 msgid "Wrong token type: %s expected but %s found"
-msgstr "Неверный тип лексемы: ожидался %s, но найден %s"
+msgstr ""
 
 #: lclstrconsts.sshellctrlsbytes
 #, object-pascal-format
 msgid "%s bytes"
-msgstr "%s байт"
+msgstr ""
 
 #: lclstrconsts.sshellctrlsinvalidpath
 #, object-pascal-format
@@ -1408,8 +1401,6 @@ msgid ""
 "Invalid pathname:\n"
 "\"%s\""
 msgstr ""
-"Некорректный путь:\n"
-"\"%s\""
 
 #: lclstrconsts.sshellctrlsinvalidpathrelative
 #, object-pascal-format
@@ -1419,10 +1410,6 @@ msgid ""
 "in relation to rootpath:\n"
 "\"%s\""
 msgstr ""
-"Некорректный путь:\n"
-"\"%s\"\n"
-"относительно корневого:\n"
-"\"%s\""
 
 #: lclstrconsts.sshellctrlsinvalidroot
 #, object-pascal-format
@@ -1431,22 +1418,20 @@ msgid ""
 "Invalid pathname:\n"
 "\"%s\""
 msgstr ""
-"Некорректный путь:\n"
-"\"%s\""
 
 #: lclstrconsts.sshellctrlskb
 #, object-pascal-format
 msgid "%s kB"
-msgstr "%s кБ"
+msgstr ""
 
 #: lclstrconsts.sshellctrlsmb
 #, object-pascal-format
 msgid "%s MB"
-msgstr "%s МБ"
+msgstr ""
 
 #: lclstrconsts.sshellctrlsname
 msgid "Name"
-msgstr "Имя"
+msgstr ""
 
 #: lclstrconsts.sshellctrlsselecteditemdoesnotexists
 #, object-pascal-format
@@ -1454,14 +1439,12 @@ msgid ""
 "The selected item does not exist on disk:\n"
 "\"%s\""
 msgstr ""
-"Выбранный элемент отсутствует на диске:\n"
-"\"%s\""
 
 #: lclstrconsts.sshellctrlssize
 msgid "Size"
-msgstr "Размер"
+msgstr ""
 
 #: lclstrconsts.sshellctrlstype
 msgid "Type"
-msgstr "Тип"
+msgstr ""
 
